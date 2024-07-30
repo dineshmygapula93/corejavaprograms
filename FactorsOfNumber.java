@@ -11,5 +11,6 @@ public class FactorsOfNumber {
             if(a%i==0)
             System.out.println(i);
         }
+        sc.close();
     }    
 }
