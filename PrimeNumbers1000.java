@@ -1,3 +1,4 @@
+//Write a Java program to display all prime numbers from 1 to 1000.
 public class PrimeNumbers1000 {
     public static void main(String[] args) {
        
