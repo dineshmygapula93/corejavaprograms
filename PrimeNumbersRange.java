@@ -1,3 +1,4 @@
+//Write a Java program to display all prime numbers in a given range.
 import java.util.Scanner;
 public class PrimeNumbersRange {
     public static void main(String[] args) {
