@@ -1,14 +1,18 @@
-//Write a Java program to check whether given number is an armstrong or not?
+//Write a Java program to display all armstrong numbers in a given range.
 import java.util.Scanner;
-public class ArmStrongNumber {
-    public static void main(String args[]){
+public class ArmStrongNumberRange {
+    public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
-        System.out.println("Enter any number");
+        System.out.println("Enter the start value");
         int num=s.nextInt();
-        int actual = num;
-        int sum=0;
-        int numlen=0;
-        int power=1;
+       System.out.println("enter the last values");
+        int lastnum =s.nextInt();
+       for(int k=num;k<=lastnum ; k++){
+
+            int actual =k ;
+            int sum=0;
+            int numlen=0;
+            int power=1;
         //To check the lenth of the given number
         while(num>0){
            numlen++;
@@ -21,15 +25,14 @@ public class ArmStrongNumber {
         for(int i=1 ;i<=numlen;i++){
          power *=b;
         }
-        System.out.println(power);
             sum +=power;
             power=1;
             num=num/10;
         }
+        num =actual;
         if(actual == sum)
-        System.out.println("the number "+actual+" is Armstrong number");
-        else
-        System.out.println("it is not a Armstrong Number");
+        System.out.println(actual+" armstrong");
+        }
         s.close();
     }
 }
