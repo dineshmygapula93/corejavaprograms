@@ -7,5 +7,6 @@ public class StrToCharArray {
         char[] c =s.toCharArray();
         
         System.out.println(c[0]);
+        sc.close();
     }
 }
