@@ -10,5 +10,6 @@ public class StartStr {
         }else{
             System.out.println("The String is not starts with w");
         }
+        sc.close();
     }
 }
