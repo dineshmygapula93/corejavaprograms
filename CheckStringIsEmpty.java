@@ -1,3 +1,4 @@
+// Write a program to check whether given string is empty or not by using the following method of java.lang.String class. public boolean isEmpty();
 import java.util.Scanner;
 public class CheckStringIsEmpty {
     public static void main(String[] args) {
