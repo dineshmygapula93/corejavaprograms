@@ -11,5 +11,6 @@ public class DecToHexa {
         int num=sc.nextInt();
         String rs=Integer.toHexString(num);
         System.out.println("The hexadecimal for number "+num+" is "+rs);
+        sc.close();
     }
 }
