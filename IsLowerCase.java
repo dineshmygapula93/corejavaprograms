@@ -8,7 +8,9 @@ public class IsLowerCase {
     char [] ch=s.toCharArray();
     boolean b=false;
     for (char c : ch) {
-        b=Character.isLowerCase(c);  
+        b=Character.isLowerCase(c);
+        if(b==false)
+        break;
     }
     if (b==true) {
         System.out.println("It has lower case");

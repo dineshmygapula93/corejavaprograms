@@ -9,6 +9,8 @@ public class DigitOrNot {
         boolean b=false;
         for (char c : ch) {
             b=Character.isDigit(c);
+            if(b==false)
+            break;
         }    
         if (b==true) {
             System.out.println("It is a digit");
